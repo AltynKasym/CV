@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fbb03c;
+}
+
+.user-name {
+  padding: 60px 0 0;
+  margin: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: #fbb03c;
+}
+
+.user-profession {
+  margin: 20px 0 150px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 37px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.skills {
+  width: 400px;
+  padding-left: 35px;
+  background-color: #000000;
+}
+.skills__name {
+  margin: 80px 0 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #fbb03c;
+}
+.skills__item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.skills__list {
+  display: inline-block;
+  margin: 100px 0 0;
+}
+.skills a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #ffffff;
+}
+.skills ul,
+.skills li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.phone::before {
+  margin-right: 8px;
+  content: url(../img/phone.svg);
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.mail::before {
+  margin-right: 8px;
+  content: url(../img/mail.svg);
+  display: inline-block;
+  width: 17px;
+  height: 14px;
+}
+
+.linkedin::before {
+  margin-right: 8px;
+  content: url(../img/linkedin.svg);
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.gps::before {
+  margin-right: 8px;
+  content: url(../img/gps.svg);
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.container {
+  position: relative;
+  margin: 0 auto 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 1150px;
+}
+
+.container:before,
+.container:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 300px;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
+
+.container:after {
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+.status {
+  color: white;
+  font-size: 23px;
+  float: right;
+}
+
+.skills__item:hover td {
+  color: #fbb03c;
+  padding-left: 5px;
+  cursor: pointer;
+  -webkit-transition: all 0.1s;
+  -o-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+table {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.experience {
+  margin: 0;
+  padding: 30px 60px 0 30px;
+  font-family: montserrat;
+  background-color: #fbb03c;
+  color: #000000;
+  width: 850px;
+}
+.experience__name {
+  margin: 30px 0 20px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #000000;
+  border-bottom: 1px solid #000;
+}
+.experience__list {
+  margin-bottom: 45.5px;
+}
+.experience__item {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+  display: inline-block;
+  padding: 0;
+  margin-bottom: 2px;
+}
+.experience__subitem {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  font-style: italic;
+  margin-top: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  padding-left: 15px;
+}
+
+.time {
+  max-width: 10em;
+  min-height: 2em;
+  float: right;
+  text-align: right;
+  margin: 20px 15px 0 auto;
+}
+
+.printlogo {
+  position: absolute;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+@media print {
+  .printlogo {
+    display: none;
+  }
+}

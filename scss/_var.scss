@@ -1,0 +1,11 @@
+$primary-color-orange: #fbb03c;
+$primary-color-black: #000000;
+$secondary-color: #ffffff;
+
+@mixin primary-font {
+  font-family: montserrat;
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+} ;
