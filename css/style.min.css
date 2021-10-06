@@ -280,4 +280,13 @@ ul {
     margin: 0 0 10px;
     padding: 0;
   }
+
+  .container:before,
+.container:after {
+    display: none;
+  }
+
+  .container:after {
+    display: none;
+  }
 }
