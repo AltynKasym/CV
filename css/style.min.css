@@ -230,8 +230,54 @@ ul {
   color: black;
 }
 
+.time-mobile {
+  display: none;
+}
+
 @media print {
   .printlogo {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    width: 500px;
+  }
+
+  .container {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .skills {
+    padding-bottom: 70px;
+  }
+
+  .experience {
+    width: 375px;
+    padding: 30px 30px;
+  }
+  .experience__item {
+    display: inline;
+  }
+  .experience__subitem {
+    margin: 3px 0;
+  }
+
+  .time {
+    display: none;
+  }
+
+  .time-mobile {
+    display: block;
+    font-size: 15px;
+    margin: 0 0 10px;
+    padding: 0;
   }
 }
