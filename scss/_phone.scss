@@ -7,6 +7,10 @@
   }
   .skills {
     padding-bottom: 70px;
+
+    &__item {
+      font-size: 18px;
+    }
   }
   .experience {
     width: 375px;
@@ -37,6 +41,10 @@
     display: none;
   }
   .container:after {
+    display: none;
+  }
+
+  .print {
     display: none;
   }
 }

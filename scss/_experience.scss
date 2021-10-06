@@ -61,10 +61,13 @@ ul {
 }
 
 .printlogo {
-  position: absolute;
-  text-align: center;
+  float: right;
   text-decoration: none;
   color: black;
+}
+
+.print {
+  width: 30px;
 }
 
 .time-mobile {

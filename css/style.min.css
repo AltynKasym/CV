@@ -224,10 +224,13 @@ ul {
 }
 
 .printlogo {
-  position: absolute;
-  text-align: center;
+  float: right;
   text-decoration: none;
   color: black;
+}
+
+.print {
+  width: 30px;
 }
 
 .time-mobile {
@@ -249,6 +252,9 @@ ul {
 
   .skills {
     padding-bottom: 70px;
+  }
+  .skills__item {
+    font-size: 18px;
   }
 
   .experience {
@@ -281,6 +287,10 @@ ul {
   .container:after {
     display: none;
   }
+
+  .print {
+    display: none;
+  }
 }
 @media print {
   .printlogo {
@@ -308,6 +318,10 @@ ul {
   }
 
   .container:after {
+    display: none;
+  }
+
+  .print {
     display: none;
   }
 }
