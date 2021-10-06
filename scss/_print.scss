@@ -3,6 +3,21 @@
     // add printlogo as class for logo image
     display: none;
   }
+
+  .contacts .skills__item {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: $primary-color-black;
+  }
+
+  .experience {
+    border-left: #000 solid 1px;
+  }
+
+  .skills {
+    padding-left: 50px;
+  }
   // .skills__name,
   // .skills__item,
   // .user-name,
@@ -11,22 +26,6 @@
   //   text-decoration: none;
   //   color: #000;
   // }
-
-  // .contacts .skills__item {
-  //   margin: 0;
-  //   padding: 0;
-  //   text-decoration: none;
-  //   color: $primary-color-black;
-  // }
-
-  // .experience {
-  //   border-left: #000 solid 1px;
-  // }
-
-  // .skills {
-  //   padding-left: 50px;
-  // }
-
   // .skills__item a {
   //   text-decoration: none;
   //   color: #000;
@@ -36,13 +35,13 @@
   //   color: #000;
   // }
 
-  // .container:before,
-  // .container:after {
-  //   display: none;
-  // }
-  // .container:after {
-  //   display: none;
-  // }
+  .container:before,
+  .container:after {
+    display: none;
+  }
+  .container:after {
+    display: none;
+  }
 
   // .skills {
   //   background-color: #c8c6c6;

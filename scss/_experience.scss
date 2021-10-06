@@ -1,14 +1,14 @@
 @import "var";
 .experience {
   margin: 0;
-  padding: 30px 60px 0 30px;
+  padding: 30px 60px 20px 30px;
   font-family: montserrat;
   background-color: $primary-color-orange;
   color: $primary-color-black;
   width: 850px;
 
   &__name {
-    margin: 30px 0 20px;
+    margin: 36px 0 20px;
     font-style: normal;
     font-weight: 600;
     font-size: 25px;
